@@ -1,9 +1,11 @@
 from core.super_iters import print_hello
 
 
+NAMES=('Alexandra', 'Nikita', 'Julya', 'Kristina', 'Ritis')
+
+
 def main():
-    names = ['Alexandra', 'Nikita', 'Julya', 'Kristina', 'Ritis']
-    print_hello(names=names, exclude_names=['Ritis'], is_random=True)
+    print_hello(names=NAMES, exclude_names=['Ritis'], is_random=True)
 
 
 if __name__ == '__main__':
